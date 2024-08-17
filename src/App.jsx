@@ -1,12 +1,24 @@
+import Header from './components/Header';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 
-function App() {
+//placeholder components for the pages
+const Home = () => <div>Home page</div>
+const Courses = () => <div>Courses Page</div>;
+const About = () => <div>About Page</div>;
+const Contact = () => <div>Contact Page</div>;
+
+const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    </div>
+    <Router>
+    <Header />
+    <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+    </Routes>
+</Router>
   )
 }
 
