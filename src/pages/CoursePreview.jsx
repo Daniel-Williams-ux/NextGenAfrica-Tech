@@ -63,7 +63,8 @@ const CoursePreview = () => {
                         <Link to={courses.link}>
                         <button 
                             type="button" 
-                            className="bg-gray-600 hover:bg-gray-700 text-white py-2 px-4 mt-4 rounded-md transition duration-150 ease-in-out">
+
+                            className="underline underline-offset-4 border-double border-white hover:text-sky-700 text-black py-2 px-4 mt-4 rounded-md transition duration-150 ease-in-out">
                             Learn More
                         </button>
                         </Link>

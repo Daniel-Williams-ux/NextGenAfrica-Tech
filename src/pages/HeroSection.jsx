@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
     return (
-        <div className="home-container py-20 md:px-0"> {/* Changed background to light gray for contrast */}
+        <div className="home-container py-20 md:px-0">
             <div className="max-w-3xl mx-auto text-center">
                 <h1 className="text-5xl font-bold">Welcome to NextGenAfrica Tech</h1>
                 <p className="text-lg mt-4 mx-4 md:mx-0">Your gateway to top-tier education. Explore our courses and start your journey today!</p>
