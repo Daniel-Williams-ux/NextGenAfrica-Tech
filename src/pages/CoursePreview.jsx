@@ -54,7 +54,7 @@ const CoursePreview = () => {
                     <img 
                         src={courses.image} 
                         alt={courses.title}
-                        className="w-full h-48 object-cover" 
+                        className="w-full h-44 md:h-20 object-cover" 
                         loading="lazy"
                     />
                    <div className="p-4">
