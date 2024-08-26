@@ -72,12 +72,13 @@ const CoursePreview = () => {
                 ))}
             </div>
             <div className="text-center mt-8">
-                <a
-                    href="/courses"
-                    className="inline-block bg-purple-600 hover:bg-purple-700 text-white py-3 px-6 rounded-md transition duration-150 ease-in-out"
-                >
+            <Link to="/courses">
+                <button
+                    className="inline-block bg-purple-600 hover:bg-purple-700 text-white py-3 px-6 rounded-md transition duration-150 ease-in-out">
+                
                     View All Courses
-                </a>
+                </button>
+                </Link>
             </div>
         </div>
     );
