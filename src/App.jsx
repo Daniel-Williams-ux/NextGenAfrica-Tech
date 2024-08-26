@@ -1,14 +1,13 @@
 import React, { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
+import Courses from './components/Courses';
+import About from './components/About';
+import Contact from './components/Contact';
 import './App.css'
 
 // Lazy load the Header component for better performance
 const Header = lazy(() => import('./components/Header'));
-
-const Courses = () => <div>Courses Page</div>;
-const About = () => <div>About Page</div>;
-const Contact = () => <div>Contact Page</div>;
 
 const App = () => {
   return (
